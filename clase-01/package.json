@@ -1,0 +1,24 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Curso basico de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Luis Factor",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-semistandard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-semistandard"
+  }
+}
