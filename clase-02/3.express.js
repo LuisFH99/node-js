@@ -4,6 +4,7 @@ const app = express();
 app.disable('x-powered-by');
 const PORT = 5000;
 
+// esto simplifica todo lo comentado
 app.use(express.json());
 // especifico -> ('/', '/pokemon/*')
 // afecta a todo
